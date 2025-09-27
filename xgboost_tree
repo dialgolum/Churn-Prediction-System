@@ -1,0 +1,281 @@
+digraph {
+    graph [ rankdir=TB ]
+
+    0 [ label="Age<0.284631789" ]
+    0 -> 1 [label="yes" color="#FF0000"]
+    0 -> 2 [label="no, missing" color="#0000FF"]
+
+    1 [ label="NumOfProducts<0.353667855" ]
+    1 -> 3 [label="yes" color="#FF0000"]
+    1 -> 4 [label="no, missing" color="#0000FF"]
+
+    3 [ label="NumOfProducts<0.333333343" ]
+    3 -> 7 [label="yes" color="#FF0000"]
+    3 -> 8 [label="no, missing" color="#0000FF"]
+
+    7 [ label="NumOfProducts<0.0127947312" ]
+    7 -> 15 [label="yes" color="#FF0000"]
+    7 -> 16 [label="no, missing" color="#0000FF"]
+
+    15 [ label="Age<0.190185815" ]
+    15 -> 31 [label="yes" color="#FF0000"]
+    15 -> 32 [label="no, missing" color="#0000FF"]
+
+    31 [ label="IsActiveMember_0.0" ]
+    31 -> 53 [label="yes" color="#FF0000"]
+    31 -> 54 [label="no, missing" color="#0000FF"]
+
+    53 [ label="leaf=-0.420805395" ]
+
+    54 [ label="leaf=-0.201923087" ]
+
+    32 [ label="Geography_Germany" ]
+    32 -> 55 [label="yes" color="#FF0000"]
+    32 -> 56 [label="no, missing" color="#0000FF"]
+
+    55 [ label="leaf=-0.152157471" ]
+
+    56 [ label="leaf=0.139534891" ]
+
+    16 [ label="leaf=0.580487788" ]
+
+    8 [ label="Balance<0.408365786" ]
+    8 -> 17 [label="yes" color="#FF0000"]
+    8 -> 18 [label="no, missing" color="#0000FF"]
+
+    17 [ label="Age<0.247331351" ]
+    17 -> 33 [label="yes" color="#FF0000"]
+    17 -> 34 [label="no, missing" color="#0000FF"]
+
+    33 [ label="leaf=-0.559011638" ]
+
+    34 [ label="Age<0.256334841" ]
+    34 -> 57 [label="yes" color="#FF0000"]
+    34 -> 58 [label="no, missing" color="#0000FF"]
+
+    57 [ label="leaf=0.360000014" ]
+
+    58 [ label="leaf=-0.500268102" ]
+
+    18 [ label="Age<0.232956961" ]
+    18 -> 35 [label="yes" color="#FF0000"]
+    18 -> 36 [label="no, missing" color="#0000FF"]
+
+    35 [ label="Gender_Female" ]
+    35 -> 59 [label="yes" color="#FF0000"]
+    35 -> 60 [label="no, missing" color="#0000FF"]
+
+    59 [ label="leaf=-0.507382572" ]
+
+    60 [ label="leaf=-0.411353707" ]
+
+    36 [ label="Age<0.243243247" ]
+    36 -> 61 [label="yes" color="#FF0000"]
+    36 -> 62 [label="no, missing" color="#0000FF"]
+
+    61 [ label="leaf=0.381818205" ]
+
+    62 [ label="leaf=-0.322105289" ]
+
+    4 [ label="Balance<0.0172339547" ]
+    4 -> 9 [label="yes" color="#FF0000"]
+    4 -> 10 [label="no, missing" color="#0000FF"]
+
+    9 [ label="Age<0.190185815" ]
+    9 -> 19 [label="yes" color="#FF0000"]
+    9 -> 20 [label="no, missing" color="#0000FF"]
+
+    19 [ label="EstimatedSalary<0.432048917" ]
+    19 -> 37 [label="yes" color="#FF0000"]
+    19 -> 38 [label="no, missing" color="#0000FF"]
+
+    37 [ label="leaf=-0.41538465" ]
+
+    38 [ label="CreditScore<0.69599998" ]
+    38 -> 63 [label="yes" color="#FF0000"]
+    38 -> 64 [label="no, missing" color="#0000FF"]
+
+    63 [ label="leaf=0.257142872" ]
+
+    64 [ label="leaf=-0" ]
+
+    20 [ label="CreditScore<0.681231558" ]
+    20 -> 39 [label="yes" color="#FF0000"]
+    20 -> 40 [label="no, missing" color="#0000FF"]
+
+    39 [ label="CreditScore<0.49673456" ]
+    39 -> 65 [label="yes" color="#FF0000"]
+    39 -> 66 [label="no, missing" color="#0000FF"]
+
+    65 [ label="leaf=0.163636371" ]
+
+    66 [ label="leaf=0.51111114" ]
+
+    40 [ label="Tenure<0.200000003" ]
+    40 -> 67 [label="yes" color="#FF0000"]
+    40 -> 68 [label="no, missing" color="#0000FF"]
+
+    67 [ label="leaf=0.400000036" ]
+
+    68 [ label="leaf=-0.333333373" ]
+
+    10 [ label="EstimatedSalary<0.931311429" ]
+    10 -> 21 [label="yes" color="#FF0000"]
+    10 -> 22 [label="no, missing" color="#0000FF"]
+
+    21 [ label="leaf=0.569230795" ]
+
+    22 [ label="leaf=-0" ]
+
+    2 [ label="NumOfProducts<0.333333343" ]
+    2 -> 5 [label="yes" color="#FF0000"]
+    2 -> 6 [label="no, missing" color="#0000FF"]
+
+    5 [ label="IsActiveMember_0.0" ]
+    5 -> 11 [label="yes" color="#FF0000"]
+    5 -> 12 [label="no, missing" color="#0000FF"]
+
+    11 [ label="Age<0.540540516" ]
+    11 -> 23 [label="yes" color="#FF0000"]
+    11 -> 24 [label="no, missing" color="#0000FF"]
+
+    23 [ label="Geography_Germany" ]
+    23 -> 41 [label="yes" color="#FF0000"]
+    23 -> 42 [label="no, missing" color="#0000FF"]
+
+    41 [ label="NumOfProducts<0.0127947312" ]
+    41 -> 69 [label="yes" color="#FF0000"]
+    41 -> 70 [label="no, missing" color="#0000FF"]
+
+    69 [ label="leaf=0.102837689" ]
+
+    70 [ label="leaf=0.579487205" ]
+
+    42 [ label="Balance<0.348768979" ]
+    42 -> 71 [label="yes" color="#FF0000"]
+    42 -> 72 [label="no, missing" color="#0000FF"]
+
+    71 [ label="leaf=-0.333333373" ]
+
+    72 [ label="leaf=0.445714325" ]
+
+    24 [ label="Geography_Germany" ]
+    24 -> 43 [label="yes" color="#FF0000"]
+    24 -> 44 [label="no, missing" color="#0000FF"]
+
+    43 [ label="Age<0.614414632" ]
+    43 -> 73 [label="yes" color="#FF0000"]
+    43 -> 74 [label="no, missing" color="#0000FF"]
+
+    73 [ label="leaf=-0.136633679" ]
+
+    74 [ label="leaf=-0.483870983" ]
+
+    44 [ label="Age<0.756756783" ]
+    44 -> 75 [label="yes" color="#FF0000"]
+    44 -> 76 [label="no, missing" color="#0000FF"]
+
+    75 [ label="leaf=0.195000008" ]
+
+    76 [ label="leaf=-0.400000036" ]
+
+    12 [ label="Age<0.31095475" ]
+    12 -> 25 [label="yes" color="#FF0000"]
+    12 -> 26 [label="no, missing" color="#0000FF"]
+
+    25 [ label="Age<0.310810804" ]
+    25 -> 45 [label="yes" color="#FF0000"]
+    25 -> 46 [label="no, missing" color="#0000FF"]
+
+    45 [ label="Age<0.298482001" ]
+    45 -> 77 [label="yes" color="#FF0000"]
+    45 -> 78 [label="no, missing" color="#0000FF"]
+
+    77 [ label="leaf=0.18534033" ]
+
+    78 [ label="leaf=0.574999988" ]
+
+    46 [ label="CreditScore<0.453938663" ]
+    46 -> 79 [label="yes" color="#FF0000"]
+    46 -> 80 [label="no, missing" color="#0000FF"]
+
+    79 [ label="leaf=0.0500000045" ]
+
+    80 [ label="leaf=-0.286956549" ]
+
+    26 [ label="Age<0.378821105" ]
+    26 -> 47 [label="yes" color="#FF0000"]
+    26 -> 48 [label="no, missing" color="#0000FF"]
+
+    47 [ label="Age<0.32432431" ]
+    47 -> 81 [label="yes" color="#FF0000"]
+    47 -> 82 [label="no, missing" color="#0000FF"]
+
+    81 [ label="leaf=0.578947425" ]
+
+    82 [ label="leaf=0.376708865" ]
+
+    48 [ label="Age<0.756756783" ]
+    48 -> 83 [label="yes" color="#FF0000"]
+    48 -> 84 [label="no, missing" color="#0000FF"]
+
+    83 [ label="leaf=0.539219737" ]
+
+    84 [ label="leaf=-0.150000006" ]
+
+    6 [ label="NumOfProducts<0.353667855" ]
+    6 -> 13 [label="yes" color="#FF0000"]
+    6 -> 14 [label="no, missing" color="#0000FF"]
+
+    13 [ label="Balance<0.0172339547" ]
+    13 -> 27 [label="yes" color="#FF0000"]
+    13 -> 28 [label="no, missing" color="#0000FF"]
+
+    27 [ label="IsActiveMember_0.0" ]
+    27 -> 49 [label="yes" color="#FF0000"]
+    27 -> 50 [label="no, missing" color="#0000FF"]
+
+    49 [ label="EstimatedSalary<0.0297564417" ]
+    49 -> 85 [label="yes" color="#FF0000"]
+    49 -> 86 [label="no, missing" color="#0000FF"]
+
+    85 [ label="leaf=-0.266666681" ]
+
+    86 [ label="leaf=-0.538083553" ]
+
+    50 [ label="Age<0.433414131" ]
+    50 -> 87 [label="yes" color="#FF0000"]
+    50 -> 88 [label="no, missing" color="#0000FF"]
+
+    87 [ label="leaf=-0.406593442" ]
+
+    88 [ label="leaf=0.0947368443" ]
+
+    28 [ label="Age<0.378821105" ]
+    28 -> 51 [label="yes" color="#FF0000"]
+    28 -> 52 [label="no, missing" color="#0000FF"]
+
+    51 [ label="EstimatedSalary<0.791709661" ]
+    51 -> 89 [label="yes" color="#FF0000"]
+    51 -> 90 [label="no, missing" color="#0000FF"]
+
+    89 [ label="leaf=-0.106705546" ]
+
+    90 [ label="leaf=-0.409090936" ]
+
+    52 [ label="IsActiveMember_0.0" ]
+    52 -> 91 [label="yes" color="#FF0000"]
+    52 -> 92 [label="no, missing" color="#0000FF"]
+
+    91 [ label="leaf=-0.0995515808" ]
+
+    92 [ label="leaf=0.337500006" ]
+
+    14 [ label="Age<0.64864862" ]
+    14 -> 29 [label="yes" color="#FF0000"]
+    14 -> 30 [label="no, missing" color="#0000FF"]
+
+    29 [ label="leaf=0.581623316" ]
+
+    30 [ label="leaf=-0.200000018" ]
+}
